@@ -9,11 +9,11 @@ import 'getx/view/home.dart';
 import 'getx/view/show_result.dart';
 
 void main() {
-  //logic_Game obj1=logic_Game();
-  //obj1.BFS();
-  //obj1.DFS();
-  //obj1.UCS();
- // obj1.AStar();
+  logic_Game obj1=logic_Game();
+  obj1.BFS();
+  obj1.DFS();
+  obj1.UCS();
+ obj1.AStar();
   base_Structure list=base_Structure();
   //print(list.buildLists());
   runApp(const MyApp());
